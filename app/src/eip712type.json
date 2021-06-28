@@ -1,0 +1,23 @@
+{
+    "EIP712Demo": [
+        {
+            "type": "address",
+            "name": "whose"
+        },
+        {
+            "type": "Container",
+            "name": "container"
+        }
+    ],
+  
+    "Container": [
+        {
+            "type": "int256",
+            "name": "val"
+        },
+        {
+          "type": "address",
+          "name": "to"
+      }
+    ]
+  }
